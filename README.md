@@ -71,6 +71,7 @@
 ## 📁 Project Structure
 
 skill-swap/
+
 ├── client/ # React frontend
 
 │ ├── components/ # Reusable UI components
