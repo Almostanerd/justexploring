@@ -72,12 +72,19 @@
 
 skill-swap/
 ├── client/ # React frontend
+
 │ ├── components/ # Reusable UI components
+
 │ └── pages/ # Routes and views
+
 ├── server/ # Express backend
+
 │ ├── routes/ # API routes
+
 │ └── controllers/ # Logic & database interaction
+
 ├── db/ # PostgreSQL schema & seed files
+
 └── public/ # Static assets
 
 
