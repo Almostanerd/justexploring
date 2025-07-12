@@ -70,3 +70,30 @@
 
 ## 📁 Project Structure
 
+skill-swap/
+├── client/ # React frontend
+│ ├── components/ # Reusable UI components
+│ └── pages/ # Routes and views
+├── server/ # Express backend
+│ ├── routes/ # API routes
+│ └── controllers/ # Logic & database interaction
+├── db/ # PostgreSQL schema & seed files
+└── public/ # Static assets
+
+
+---
+
+## 🚀 Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/skill-swap.git
+cd skill-swap
+
+# Install dependencies
+cd server && npm install
+cd ../client && npm install
+
+# Start backend and frontend
+cd ../server && npm run dev
+cd ../client && npm start
